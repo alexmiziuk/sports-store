@@ -1,0 +1,57 @@
+.register-panel {
+	background-color: #343434;
+	padding: 16px 0 15px 0;
+	&__wrapper {
+		display: flex;
+		justify-content: space-between;
+	}
+}
+.contacts {
+	display: flex;
+	width: 159px;
+	font-family: "Roboto-Regular";
+	font-size: 12px;
+	justify-content: space-between;
+	&__number-phone {
+		color: #fff !important;
+		text-decoration: none;
+		cursor: pointer;
+	}
+	&__help {
+		color: #ffffff;
+		border: none;
+		background-color: #343434;
+		padding: 0;
+		cursor: pointer;
+		font-size: 12px;
+	}
+}
+.account {
+	display: flex;
+	width: 148px;
+	font-family: "Roboto-Regular";
+	font-size: 12px;
+	justify-content: space-between;
+	&__input {
+		color: #fff !important;
+		background-color: #343434;
+		border: none;
+		padding: 0;
+		font-family: "Roboto-Regular";
+		font-size: 12px;
+		cursor: pointer;
+	}
+	&__slash {
+		color: #fff !important;
+		font-size: 12px;
+	}
+	&__register {
+		color: #fff !important;
+		background-color: #343434;
+		border: none;
+		padding: 0;
+		font-family: "Roboto-Regular";
+		font-size: 12px;
+		cursor: pointer;
+	}
+}
