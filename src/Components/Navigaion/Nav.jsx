@@ -4,7 +4,6 @@ import './nav.scss';
 
 import searchIcon from '../../Resource/icons/search.png'
 
-
 const Nav = () => {
 	return (
 		<div className='nav'>
@@ -27,7 +26,6 @@ const Nav = () => {
 						<button className="nav__search-bag"></button>
 					</div>
 				</div>
-
 			</Container>
 		</div>
 	);
